@@ -65,16 +65,7 @@ class Login extends Component {
                     </div>
                   </div>
                   <div className="show-grid">
-                    <div
-                      xs={8}
-                      xsOffset={2}
-                      sm={8}
-                      smOffset={2}
-                      md={8}
-                      mdOffset={2}
-                      lg={8}
-                      lgOffset={2}
-                    >
+                    <div>
                       <p className="text-justify">
                         Test your knowledge in any area of your choosing and
                         challenge yourself everyday!
