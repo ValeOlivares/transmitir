@@ -52,7 +52,7 @@ class Login extends Component {
                     />
                 ) : (
                         <div>
-                            <Row className="container">
+                            <Row className="containers">
                                 <Col>
                                     <Row >
                                         <h5>Puedes escoger una cuenta o ingresar una nueva:</h5>

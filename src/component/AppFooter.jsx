@@ -5,7 +5,7 @@ import {Footer} from 'react-materialize'
 class AppFooter extends Component {
   render() {
     return (
-      <Footer copyrights="&copy 2015 Copyright Text" moreLinks={<a />} links={<ul />} className="example">
+      <Footer copyrights="Voice Tuner 2019 Copyright" moreLinks={<a />} links={<ul />} className="example">
         
       </Footer>
     )

@@ -123,7 +123,7 @@ class Form extends Component {
                     </div>
                 ) : null}
                 {formCounter === 4 ? (
-                    <Row className="container">
+                    <Row className="containers">
                         <Col s={12} className="containerSpace">
                             <Row className="marginStartBtn"> 
                                 <h5>Gracias! Con este registro podrás comparar tu actual tono con tu progreso vocal a medida que vayas practicando</h5>

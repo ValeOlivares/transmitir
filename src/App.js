@@ -38,7 +38,7 @@ class App extends Component {
 
 
         ) : (
-            <Row className="container">
+            <Row className="containers">
               <Col s={12} className="containerSpace">
                 <Row>
                   <img alt="logostart" src={logostart} className="startImg" />

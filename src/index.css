@@ -31,7 +31,7 @@ button:active{
   font-weight: bold;
 }
 
-.container {
+.containers {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -123,3 +123,9 @@ label.active {
  .marginbreathing{
    margin: 1em;
  }
+
+ .page-footer {
+  padding-top: 20px;
+  color: #fd99c8;
+  background-color: white;
+}
