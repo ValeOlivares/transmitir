@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form from './Form';
 
 class Home extends Component {
   constructor(src, title, onClick) {
@@ -21,7 +22,7 @@ class Home extends Component {
     const { select } = this.state;
     return (
       <div>
-          <h2>{title}</h2>
+          {/* <h2>{title}</h2> */}
           <button onClick={onClick}>Cerrar Sesión</button>
         {/* <NavBar
         //   src={src}
@@ -30,6 +31,7 @@ class Home extends Component {
           counter={counter}
           select={select}
         /> */}
+        <Form title={title}/>
       </div>
     );
   }
