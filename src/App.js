@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Login from './component/Login';
 import './App.css';
 import { Row, Col, Button } from 'react-materialize';
+import logostart from '../src/img/unicorn1.png';
 
 
 class App extends Component {
@@ -40,7 +41,7 @@ class App extends Component {
            <Row className="container">
           <Col s={12} className="containerSpace">
             <Row>
-              <img alt="logostart" />
+              <img alt="logostart" src={logostart} className="startImg"/>
             </Row>
             <Row>
               <Col s={12}>

@@ -6,6 +6,7 @@
     "firebase": "^5.9.2",
     "materialize-css": "^1.0.0",
     "react": "^16.8.6",
+    "react-compound-timer": "^1.0.12",
     "react-dom": "^16.8.6",
     "react-materialize": "^3.0.3",
     "react-scripts": "2.1.8"

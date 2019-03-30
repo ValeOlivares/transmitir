@@ -59,10 +59,6 @@ class Form extends Component {
 
         return (
             <div>
-                <p>
-                    {title}
-
-                </p>
                 {formCounter === 1 ? (
                     <div>
                         <h3>¿Cómo te llamas?</h3>
@@ -156,7 +152,6 @@ class Form extends Component {
                 ) : null}
                 {formCounter === 6 ? (
                     <div>
-                        <h3>Malla</h3>
                         <Curricular />
 
                     </div>
