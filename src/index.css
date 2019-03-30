@@ -12,3 +12,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+* {
+  color: #fd99c8;
+}
+
+.fullbutton, .fullbutton:hover{
+  width: 100%;
+  background-color: #67a6fb;
+
+}
+
+button:active{
+  background:#67a6fb !important;
+  /* color: #fd99c8; */
+}
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.containerSpace {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+p {
+   font-size: 1.4em;
+}
+
+.marginStart {
+
+  margin-top: 2em;
+
+}
+.marginStartBtn {
+
+  margin-top: 3em;
+
+}
+
+input[type="text"]:focus {
+  border-bottom: 1px solid #67a6fb !important;
+
+}
+
+.input-field .prefix.active {
+  color: #67a6fb !important;
+}
+
+label.active {
+  color: #67a6fb !important;
+}
