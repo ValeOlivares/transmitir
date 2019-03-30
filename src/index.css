@@ -72,3 +72,54 @@ input[type="text"]:focus {
 label.active {
   color: #67a6fb !important;
 }
+
+.startImg{
+  margin-top: 9em;
+  width: 50%;
+}
+
+/* animacion de respiracion */
+
+#breathing-button {
+  width: 9em;
+  height: 9em;
+  padding: 20px;
+  margin: 50px auto;
+  border: 1px solid #67a6fb;
+  -webkit-animation: breathing 7s infinite ;
+  animation: breathing 7s  infinite ;
+  background: #67a6fb;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  text-align: center;    
+  }
+
+
+@keyframes breathing {
+0% {
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+
+
+66% {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+} 
+
+100% {
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+}
+ /* fin de animacion de respiracion  */
+
+ .marginbreathing{
+   margin: 1em;
+ }
