@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.curricular {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.curricular-content {
+  flex: 1  auto;
+}
+
+.curricular-img{
+  padding: 15px;
+  background: #E1EDFE;
+  border-radius: 15%;
+}

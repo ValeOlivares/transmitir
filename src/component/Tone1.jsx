@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import nose from './../img/nose.png'
+import tone from './../img/levels.png'
 
-class Breathing2 extends Component {
+class Tone1 extends Component {
   render() {
     return (
       <div>
         <div className="curricular-square">
-          <p>Nivel 2</p>
-          <img src={nose} className="curricular-img"/>
+          <p>Nivel 1</p>
+          <img src={tone} className="curricular-img"/>
           <p>Respiración</p>
         </div>
         
@@ -16,4 +16,4 @@ class Breathing2 extends Component {
   }
 }
 
-export default Breathing2; 
+export default Tone1; 
