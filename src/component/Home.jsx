@@ -23,7 +23,7 @@ class Home extends Component {
     return (
       <div>
           {/* <h2>{title}</h2> */}
-          <button onClick={onClick}>Cerrar Sesión</button>
+          {/* <button onClick={onClick}>Cerrar Sesión</button> */}
         {/* <NavBar
         //   src={src}
           title={title}
