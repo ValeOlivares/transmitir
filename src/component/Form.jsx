@@ -123,8 +123,6 @@ class Form extends Component {
                 ) : null}
                 {formCounter === 5 ? (
                     <div>
-<<<<<<< HEAD
-=======
                         <p>Compromiso</p>
                         <Row>
                             <Col s={12}>
@@ -135,8 +133,6 @@ class Form extends Component {
                 ) : null}
                 {formCounter === 6 ? (
                     <div>
-                        <h3>Malla</h3>
->>>>>>> 949a73d56bf392ef4d100b4925e6e724e4b73536
                         <Curricular />
 
                     </div>
