@@ -55,7 +55,7 @@ class Login extends Component {
                             <Row className="container">
                                 <Col>
                                     <Row >
-                                        <h5>Puedes escoger una nueva cuenta o ingresar una nueva:</h5>
+                                        <h5>Puedes escoger una cuenta o ingresar una nueva:</h5>
                                     </Row>
                                     <Row>
                                         <Col s={12}>

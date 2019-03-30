@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Curricular from './Curricular';
-import { TextInput } from 'react-materialize';
+import { TextInput, Row, Col, Button } from 'react-materialize';
 import AudioAnalyser from './AudioAnalyser';
+import microphone from './../img/microphone.png'
+import unicorn from './../img/unicorn1.png'
 
 class Form extends Component {
     constructor(title) {
@@ -59,46 +61,82 @@ class Form extends Component {
             <div>
                 {formCounter === 1 ? (
                     <div>
-                        <h3>Nombre</h3>
-                        <TextInput value={title} />
-
-                        <button onClick={this.handleClick.bind(this)}>Next</button>
+                        <h3>¿Cómo te llamas?</h3>
+                        <Row>
+                            <Col s={12}>
+                            <TextInput icon="person" label="Ingresa tu nombre" />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Continuar</Button>
+                            </Col>
+                        </Row>  
                     </div>
                 ) : null}
                 {formCounter === 2 ? (
                     <div>
-                        <h3>Tono</h3>
-
-                        <button onClick={this.handleClick.bind(this)}>Agudo</button>
-                        <button onClick={this.handleClick.bind(this)}>Grave</button>
+                        <h3>¿Qué tono quieres aprender?</h3>
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Agudo</Button>
+                            </Col>
+                        </Row> 
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Grave</Button>
+                            </Col>
+                        </Row> 
                     </div>
                 ) : null}
                 {formCounter === 3 ? (
                     <div>
-                        <h3>Registro</h3>
+                        <p>Para tener un registro de tu voz, cuéntame dónde vives tú y dónde vive la persona que te gusta admiras o te atrae</p>
                         <div className="controls">
-                            <button onClick={this.toggleMicrophone}>
+                            <Row>
+                                <Col s={12}>
+                                    <img src={microphone} className="curricular-img" onClick={this.toggleMicrophone}/>
+                                </Col>
+                            </Row>
                                 {this.state.audio ? 'Stop microphone' : 'Get microphone input'}
-                            </button>
                         </div>
                         {this.state.audio ? <AudioAnalyser audio={this.state.audio} /> : ''}
 
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Continuar</Button>
+                            </Col>
+                        </Row> 
 
-
-
-
-
-                        <button onClick={this.handleClick.bind(this)}>Next</button>
                     </div>
                 ) : null}
                 {formCounter === 4 ? (
                     <div>
-                        <h3>Compromiso</h3>
-                        <button onClick={this.handleClick.bind(this)}>Next</button>
+                        <p>Gracias! Con este registro podrás comparar tu actual tono con tu progreso vocal a medida que vayas practicando</p>
+                        <img src={unicorn} className="unicorn-form"/>
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Continuar</Button>
+                            </Col>
+                        </Row> 
                     </div>
                 ) : null}
                 {formCounter === 5 ? (
                     <div>
+<<<<<<< HEAD
+=======
+                        <p>Compromiso</p>
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Continuar</Button>
+                            </Col>
+                        </Row> 
+                    </div>
+                ) : null}
+                {formCounter === 6 ? (
+                    <div>
+                        <h3>Malla</h3>
+>>>>>>> 949a73d56bf392ef4d100b4925e6e724e4b73536
                         <Curricular />
 
                     </div>
