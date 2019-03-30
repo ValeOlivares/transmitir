@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Curricular from './Curricular';
 
 class Form extends Component {
     constructor(title) {
@@ -63,7 +64,8 @@ class Form extends Component {
                 {formCounter === 5 ? (
                     <div>
                         <h3>Malla</h3>
-                        {/* <button onClick={this.handleClick.bind(this)}>Next</button> */}
+                        <Curricular/>
+                        
                     </div>
                 ) : null}
             </div>
