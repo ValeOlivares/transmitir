@@ -10,7 +10,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      start: false
+      start: false 
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -21,7 +21,7 @@ class App extends Component {
     this.setState({
       start: true,
       //   isValid: null
-    });
+  });
 
 
   }
@@ -29,12 +29,12 @@ class App extends Component {
   render() {
     const { start } = this.state;
     console.log(start);
-
+    
 
     return (
       <div className="App">
-        {start === true ? (
-          <Login />
+      { start === true ? (
+        <Login /> 
 
 
         ) : (
@@ -48,20 +48,20 @@ class App extends Component {
                     <h2 className="bold">
                       Bienvenide
               </h2>
-                    <p className="marginStart">
-                      Aprende a vocalizar de manera gratis y entretenida
+                <p className="marginStart">
+                  Aprende a vocalizar de manera gratis y entretenida
               </p>
-                    <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Empezar</Button>
-                  </Col>
-                </Row>
-
+                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Empezar</Button>
               </Col>
             </Row>
 
+          </Col>
+        </Row>
+          
 
 
-          )}
-
+      )      }
+       
 
       </div>
     );

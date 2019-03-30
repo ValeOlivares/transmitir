@@ -142,10 +142,28 @@ class Form extends Component {
                 ) : null}
                 {formCounter === 5 ? (
                     <div>
-                        <p>Compromiso</p>
+                        <p>Elige tu meta:</p>
                         <Row>
                             <Col s={12}>
-                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Continuar</Button>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Tranqui (5 minutos al día)</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Tranqui (10 minutos al día)</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col s={12}>
+                                <Button waves="light" className="fullbutton bold marginStartBtn" onClick={this.handleClick.bind(this)}>Tranqui (15 minutos al día)</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col s={6}>
+                            <img src={unicorn} className="unicorn-meta" />
+                            </Col>
+                            <Col s={6}>
+                            <p>puedes modificar tu meta mas adelante</p>
                             </Col>
                         </Row>
                     </div>
