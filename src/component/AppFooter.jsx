@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from 'react-materialize'
+import {Footer} from 'react-materialize'
 
 
 class AppFooter extends Component {

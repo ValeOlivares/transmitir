@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AppFooter from './AppFooter';
 
 
 class Curricular extends Component {
@@ -8,8 +9,10 @@ class Curricular extends Component {
     }
     render() { 
         return ( 
-            <div>Malla</div>
-            
+            <div>Malla
+                <AppFooter/>
+
+            </div>
          );
     }
 }
